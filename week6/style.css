@@ -1,0 +1,56 @@
+
+.container{
+    width:500px;
+    height: 500px;
+    background-color: burlywood;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+
+
+}
+
+.itl{
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.itl span{
+    font-size: 30px ;
+    cursor: pointer;
+}
+
+
+.itl span:hover{
+    color: brown ;
+}
+
+.bold{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+
+ul{
+    width: 100px;
+    margin: auto;
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+ul li::before{
+    content: "\2022";
+    color:green ;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
