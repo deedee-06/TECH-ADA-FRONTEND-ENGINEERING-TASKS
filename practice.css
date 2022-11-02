@@ -1,0 +1,38 @@
+
+/* HTML MEDIA STYLES */
+video{
+    background-color: red;
+}
+iframe {
+    border: none;
+}
+
+/* CSS APPLICATION */
+
+h1{
+    color:rgba(0,255,255,5);
+    background-color: blue;
+    padding: 20px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 10px;
+    text-decoration: overline underline;
+
+}
+
+#deedee{
+    border: 10px solid black;
+    border-radius: 5px 5px;
+    outline: 10px dashed aqua;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.circle{
+    border: solid 4px yellowgreen;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+
+}
