@@ -1,44 +1,30 @@
-
-/* HTML MEDIA STYLES */
-/* video{
-    background-color: red;
-}
-iframe {
-    border: none;
-}
-
-/* CSS APPLICATION */
-/* 
-h1{
-    color:rgba(0,255,255,5);
-    background-color: blue;
+.container{
+    width: 300px;
+    height: 200px;
+    border: 5px solid cyan;
+    background-color: rgb(0, 110, 255);
+    margin: 100px;
     padding: 20px;
-    text-transform: capitalize;
-    letter-spacing: 5px;
-    line-height: 10px;
-    text-decoration: overline underline;
-
+    color: antiquewhite;
+    transform: scale(1);
+}
+.container:hover {
+transform:skew(10deg,10deg)
 }
 
-#deedee{
-    border: 10px solid black;
-    border-radius: 5px 5px;
-    outline: 10px dashed aqua;
+.profile picture{
     text-align: center;
-    margin-top: 200px;
-
+    border: 10px, 10px solid white  
 }
 
-.circle{
-    border: solid 4px yellowgreen;
-    border-radius:50%;
-    width: 100px;
-    height: 100px;
-
-} */ */
 
 
-WEEK8 -CSS TRANSITION AND ANIMATION 
+
+
+
+
+
+/* 
 .transform{
     background-color: blueviolet;
     width:150px;
@@ -86,23 +72,19 @@ background-color: rgb(0, 102, 255);
     background-color: red;
     border: 5px solid black;
     margin-top: 50px; margin-left:60px; margin-bottom: 50px;
-    transform:translate(20px);
-    animation: practice 2s;
-    animation-iteration-count:3;
+    /* transform: rotate(50deg); */
+    /* animation: practice 2s;
+    animation-iteration-count:1;
 }
 
-/* @keyframes practice{
+@keyframes practice{
     from{background-color: red;}
     to{background-color: yellowgreen;}
 } */
 /* Another method to achieve this is below, this method is smootheir and, it doesn't give the user the hint that it is transisting */
 
-@keyframes practice{
+/* @keyframes practice{
     0%{background-color: blueviolet;}
     25%{background-color: rgb(220, 43, 226);}
     100%{background-color: rgb(226, 43, 144);}
-    from{transform:scale(5);}
-    to{transform: skew(30deg);} 
-    /* to{transform:scale(2);} */
-}
-   
+} */
