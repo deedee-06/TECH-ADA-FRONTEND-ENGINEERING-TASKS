@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is week 9 task on Bootstrap">
+    <meta name="keywords" content="CSS ">
+    <meta name="author" content="Ekeze Divine Favour">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+
+    <!--Bootstrap CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-lg">
+    <div class="card mt-5" >
+        <!-- <div class="card-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero.</div> -->
+    
+        <div class="row g-0 ">
+          <div class="col-md-6 position-relative">
+            <img src="https://images.unsplash.com/photo-1517524501745-d45ba4383fa7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHMlMjBhbmQlMjBmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="100%" alt="Image of bird">
+            <div class="card-img-overlay height">
+              <p class="text-white fs-5 " style="text-align:center; margin-top: 200px;"></p>
+            </div>  
+          </div>
+          <div class="col-sm-6 ">
+            <div class="card-body h-100 bg-secondary bg-opacity-10 border border-0 ">
+              <h5 class="card-title text-center fs-1 mt-5 mb-5"> Lovebirds</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center fs-6">Welcome to Love birds</h6>
+              <form class="p-5 mx-auto">
+                <div class="mb-3 col-md-11">
+                  <label for="Email" class="form-label text-secondary">Email address or Username</label>
+                  <input  type="email" class="form-control border-0 border-bottom border-dark " id="Email" placeholder="deedee@gmail.com">
+                  
+                </div>
+
+                <div class="mb-5 col-md-11">
+                  <label for="Password1" class="form-label text-secondary">Password</label>
+                  <input type="password" class="form-control form-control border-0 border-bottom border-dark" id="Password1" aria-describedby="emailHelp" placeholder="*********">
+                  <div id="emailHelp" class="form-text text-end text-secondary">Forgot Password</div>
+                </div>
+                
+                <button type="submit" class="btn btn-secondary disabled rounded-pill d-grid gap-0 col-4 mx-auto mb-5">Sign-in</button>
+               <div class= "card-text mb-4" style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+                <span class="fs-5 p-3 text-muted" style="background-color: #F3F5F6;">
+                  or 
+                </span>
+              </div>
+              <div class="d-flex flex-row ">
+                <img src= "data:image/jpeg;base64,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" class="img-fluid float-md-start mt-3 mx-auto me-2 " style="width: 10%; height: 30px;"  alt="Google Logo">
+                <p class="mt-3 mx-auto ms-0 ">Sign in with Google</p>                  
+              </div>
+              <div class="d-flex flex-row">
+                <p class="mt-3 mx-auto me-2">New Lovebirds?</p>
+              <a href="#" class="card-link mt-3 mx-auto ms-0">Create an account</a>
+
+              </div>
+              
+                </div>
+                
+            </form> 
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<!-- <div class="container pt-5 mt-5 border bg-warning text-white">
+<div class="row">
+    <div class="col-sm-6">small screen
+    <div class="row">
+        <div class="col-sm-8 text-success"> Smaller screen</div>
+        <div class="col-sm-4">Smallest screen</div>
+        </div>
+        </div>
+    <div class="col-lg-6">large screen</div>
+    </div>
+    <div class=" alert alert-warning">
+        <strong>Danger!    </strong>You need to Run!! </div>
+        <div class="alert alert-danger">
+        <strong>Success!</strong>Yay!!You did it!! </div>
+</div>
+     -->
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
